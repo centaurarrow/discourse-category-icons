@@ -87,7 +87,7 @@
     if(iconItem) {
       let itemColor = iconItem[2] ? `style="color: ${iconItem[2]}"` : "";
       let itemIcon = iconItem[1] != '' ? iconHTML(iconItem[1]) : "";
-      let itemImage = iconItem[1] != '' ? '<img src="'+iconItem[1]+'" width="20px" height="20px" style="padding:0px 0px 5px 0px">' : "";
+      let itemImage = iconItem[1] != '' ? '<img src="'+iconItem[1]+'" width="20px" height="20px" style="padding:0px 0px 5px 5px">' : "";
       html += `<span ${itemColor} class="category-badge-icon">${itemImage}</span>`;
     }
     /// End custom category icon
